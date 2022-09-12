@@ -64,7 +64,7 @@ h1{
     bottom: -80px;
 }
 .container-large img{
-    width: 780px;
+    width: 820px;
 }
 .flex{
   display: flex;
@@ -155,4 +155,61 @@ ul{
     background-color:var(--blue);
     color: var(--white);
     padding: 12px 85px;
+}
+a{
+    color: #0061FF;
+}
+/* section2 */
+.flex2{
+    display: flex;
+    justify-content: space-between;
+}
+#b{
+    background-color: var(--blue);
+    padding:12px 38px ;
+    color: white;
+}
+.sxx{
+    padding-top: 40px;
+    padding-left:25px;
+}
+.sposta{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#partner{
+    width: 70%;
+}
+.section2{
+    margin-top: 150px;
+    display: flex;
+}
+.dxx{
+    width: 30%;
+    padding-top: 50px;
+}
+.partner{
+    width: 650px;
+}
+#btn_partner{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    padding: 12px 0;
+}
+.section3{
+    margin-top: 150px;
+}
+.hero2{
+    width: calc((1000px - 50px) / 3);
+}
+div.hero2 img{
+    width: 300px;
+}
+.container3{
+    display: flex;
+    padding-top: 50px;
+}
+.ctr{
+  margin: 0 25px;
 }
