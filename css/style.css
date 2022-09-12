@@ -33,11 +33,11 @@ nav{
     background-color: var(--white);
    z-index: 1;
 }
-li{
+ nav li{
     list-style: none;
     padding: 0 15px;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -106,19 +106,24 @@ h2{
 }
 .centro{
     text-align: center;
+    padding: 10px 0 ;
 }
 .container{
-    display:flex ;
+    display:flex;
     padding-top: 50px;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 .box{
-    width: calc((1000px - 40px) / 3);
+    width: calc((1000px - 80px) / 3);
+    min-height: 951px;
 }
 .ct{
     margin: 0 40px;
 }
 .lf{
     padding:40px 30px;
+    min-height: 951px;
 }
 h3{
     font-size: 23px;
@@ -130,4 +135,24 @@ h3{
     background-color: var(--blue);
     color: #FFFFFF;
     padding: 12px 32px;
+}
+.g{
+    padding-bottom: 50px;
+}
+.sugiu{
+    padding: 50px 0;
+}
+hr{
+    width: 50px;
+}
+li{
+    padding-top: 20px;
+}
+ul{
+    padding-left: 15px;
+}
+#btnn{
+    background-color:var(--blue);
+    color: var(--white);
+    padding: 12px 85px;
 }
