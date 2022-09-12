@@ -30,7 +30,8 @@ nav{
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    background-color: var(--white)
+    background-color: var(--white);
+   z-index: 1;
 }
 li{
     list-style: none;
@@ -56,6 +57,7 @@ ul{
 }
 h1{
     font-size: 75px;
+    font-weight: 800;
 }
 .hero .container-large{
     position: relative;
@@ -87,4 +89,45 @@ div.sx span{
     padding-top: 50px;
     font-size: 50px;
     width: 100px;
+}
+/* main */
+/* section1 */
+.section1{
+   padding-top: 150px;
+}
+h2{
+    font-size: 40px;
+}
+#box{
+    padding: 50px 0;
+}
+.box1{
+    border: 1px solid black;
+}
+.centro{
+    text-align: center;
+}
+.container{
+    display:flex ;
+    padding-top: 50px;
+}
+.box{
+    width: calc((1000px - 40px) / 3);
+}
+.ct{
+    margin: 0 40px;
+}
+.lf{
+    padding:40px 30px;
+}
+h3{
+    font-size: 23px;
+}
+#dentro{
+    padding-top: 50px;
+}
+#btn{
+    background-color: var(--blue);
+    color: #FFFFFF;
+    padding: 12px 32px;
 }
