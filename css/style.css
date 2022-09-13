@@ -3,6 +3,7 @@
     --white: #FFFFFF;
     --lightblue: #B4D0E7;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -234,12 +235,14 @@ div.hero2 p{
    height: calc(100vw / 3);
    display: flex;
    text-align: center;
+   flex-wrap: wrap;
 }
 .quadrati{
     width: calc(100% / 2);
     height: calc(100% / 2);
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 div.quadrati img{
     width: 100px;
@@ -257,3 +260,51 @@ div.quadrati img{
     background-color: #B4D0E7;
 }
 
+#lightblue{
+   background-color: #0093CE;
+}
+svg{
+    fill: #FFFFFF;
+    width: 150px;
+}
+#blu{
+    background-color: #0D2481;
+}
+#yellow{
+    background-color:#FFD830 ;
+}
+.quadd{
+    width: calc(100vw / 3); 
+   height: calc(100vw / 3);
+   background-color:#F5F5F5 ;
+}
+div.quadd img{
+    width: 300px;
+}
+.designit{
+    padding: 50px 50px;
+}
+.linea{
+    width: 120px;
+}
+.flex5{
+    display: flex;
+    justify-content: space-between;
+    height: 360px;
+    align-items: center;
+    
+}
+.section5{
+    width: 100vw;
+    background-color: #B4D0E7;
+}
+.scuro{
+    color: #61082B;
+}
+.btn_bianco{
+    background-color: #FFFFFF;
+    padding: 12px 40px;
+}
+.bo{
+ width: 55%;   
+}
