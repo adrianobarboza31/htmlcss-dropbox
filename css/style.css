@@ -146,7 +146,7 @@ h3{
 .sugiu{
     padding: 50px 0;
 }
-hr{
+.hr1{
     width: 50px;
 }
 li{
@@ -307,4 +307,39 @@ div.quadd img{
 }
 .bo{
  width: 55%;   
+}
+.section6{
+    margin-top: 150px;
+}
+footer{
+    margin-top: 150px;
+    width: 100vw;
+    background-color: black;
+    padding-top: 100px;
+}
+.flex-footer{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.lix{
+    width: calc(1200px / 5);
+}
+div.lix li{
+    color: white;
+}
+.final-section{
+    padding-top: 100px;
+}
+div.final-section hr{
+    width: 40px;
+    background-color: white;
+   margin-left: 10px;
+}
+.final-section{
+    padding-bottom: 50px;
+}
+div.final-section p{
+    color: white;
 }
