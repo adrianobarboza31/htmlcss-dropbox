@@ -11,6 +11,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 header{
     background-color:#B4D0E7 ;
@@ -333,7 +334,7 @@ div.lix li{
     padding-top: 100px;
 }
 div.final-section hr{
-    width: 40px;
+    width: 100px;
     background-color: white;
    margin-left: 10px;
 }
@@ -342,4 +343,5 @@ div.final-section hr{
 }
 div.final-section p{
     color: white;
+    margin-left: 10px;
 }
