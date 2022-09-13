@@ -165,6 +165,15 @@ ul{
 a{
     color: #0061FF;
 }
+section.section1 li::before{
+    content: "\2713" ;
+    color: var(--blue);
+    margin-right: 5px;
+}
+section.section1 li{
+    text-indent: -1.1em;
+   
+}
 /* section2 */
 .flex2{
     display: flex;
@@ -265,7 +274,7 @@ div.quadrati img{
    background-color: #0093CE;
 }
 svg{
-    fill: #FFFFFF;
+   filter: invert(1);
     width: 150px;
 }
 #blu{
