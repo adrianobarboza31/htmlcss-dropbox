@@ -449,6 +449,7 @@ div.tendina{
 }
 div.contfr:hover div.hosection6{
     display: block;
+    cursor: pointer;
 }
 .lingua{
     color: white;
@@ -458,6 +459,11 @@ div.contfr:hover div.hosection6{
 }
 div.final-sectionn:hover div.lingua{
     display: block;
+    
+}
+div.lingua li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 .final-sectionn{
     padding-bottom: 150px;
