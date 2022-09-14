@@ -18,16 +18,48 @@
             <div>
                 <ul>
                     <li><img src="./img/logo-small.png" alt="logo"></li>
-                    <li>Perchè Dropbox</li>
-                    <li>Funzioni</li>
-                    <li>Piani e Prezzi</li>
+                    <li class="drop">Perchè Dropbox
+                        <ul class="dropdown">
+                            <li>prova</li>
+                            <li>prova</li>
+                            <li>prova</li>
+                        </ul>
+                    </li>
+                    <li>Funzioni
+                        <ul class="dropdown">
+                            <li>prova</li>
+                            <li>prova</li>
+                            <li>prova</li>
+                        </ul>
+                    </li>
+                    <li>Piani e Prezzi
+                        <ul class="dropdown">
+                            <li>prova</li>
+                            <li>prova</li>
+                            <li>prova</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div id="dx">
                 <ul>
-                    <li>Supporto</li>
-                    <li>Contatta l'ufficio vendite</li>
-                    <li>Accedi</li>
+                    <li>Supporto
+                        <ul class="dropdown">
+                            <li>prova</li>
+                            <li>prova</li>
+                            <li>prova</li>
+                        </ul>
+                    </li>
+                    <li>Contatta l'ufficio vendite
+                        <ul class="dropdown">
+                            <li>prova</li>
+                            <li>prova</li>
+                            <li>prova</li>
+                        </ul>
+                    </li>
+                    <li>Accedi
+                        
+                    </li>
                     <li id="btn-blu">Inizia</li>
                 </ul>
             </div>
@@ -40,7 +72,7 @@
                         <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimiizzare il flusso di lavoro esistente.</p>
                         <div id="giu"><span> Inizia la tua prova gratuita</span></div>
                         <p> Annulla in qualsiasi momento</p>
-                        <div id="freccia"> <i class='fa fa-arrow-down'></i></div>
+                        <div id="freccia"> <a href="#frecciagiu"><i class='fa fa-arrow-down' style="color:black ;"></i></a></div>
                     </div>
                     <div class="dx">
                         <img src="./img/jumbo.png" alt="">
@@ -50,7 +82,7 @@
         </div>
     </header>
     <main>
-        <section class="section1 container-small">
+        <section id="frecciagiu" class="section1 container-small">
             <h2>Trova il piano business che fa per te</h2>
             <div id="box">
                 <span> <input type="radio" id="m" name="mmm" value="mm"> fatturazione mensile</span> &nbsp; &nbsp; &nbsp; &nbsp;
@@ -64,11 +96,26 @@
                         <br>
                         <p>/mese</p>
                             <div id="dentro">
-                                <p><i class="fa fa-user"></i> 1 utente</p> 
+                                <div class="dentro">
+                                    <div><i class="fa fa-user"></i></div>
+                                    <div class="dentrosx"><p> 1 utente</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-folder"></i></div>
+                                    <div class="dentrosx">5 TB spazio di archiviazione sicuro</div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-share-alt"></i></div>
+                                    <div class="dentrosx"> <p> Funzioni di produttività premium e condivisione file semplice e sciura</p></div>
+                                </div>
+                                <!-- <p><i class="fa fa-user"></i> 1 utente</p> 
                                 <br>
                                 <p><i class="fa fa-folder"></i> 5 TB spazio di archiviazione sicuro</p> 
                                 <br>
-                                <p><i class="fa fa-share-alt"></i> Funzioni di produttività premium e condivisione file semplice e sciuraaaa</p>  
+                                <p><i class="fa fa-share-alt"></i> Funzioni di produttività premium e condivisione file semplice e sciuraaaa</p>   -->
                             </div>
                             <div id="dentro" class="g">
                                 <span id="btn">
@@ -79,7 +126,7 @@
                             <div class="sugiu">
                                 <hr class="hr1">
                             </div>
-                            <div>
+                            <div style="font-size: 15px;">
                                 Punti Salienti del piano
                                 <br>
                                 <br>
@@ -98,11 +145,26 @@
                         <br>
                         <p>/utente/mese</p>
                             <div id="dentro">
-                                <p> <i class="fa fa-users"></i> 3 o più utenti</p> 
+                                <div class="dentro">
+                                    <div><i class="fa fa-users"></i></div>
+                                    <div class="dentrosx"><p> 3 o più utenti</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-folder"></i></div>
+                                    <div class="dentrosx">Tutto lo spazio di cui ha bisogno il tuo team</div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-share-alt"></i></div>
+                                    <div class="dentrosx"> <p> sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p></div>
+                                </div>
+                                <!-- <p> <i class="fa fa-users"></i> 3 o più utenti</p> 
                                 <br>
                                 <p> <i class="fa fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</p> 
                                 <br>
-                                <p> <i class="fa fa-share-alt"></i> sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>  
+                                <p> <i class="fa fa-share-alt"></i> sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</p>   -->
                             </div>
                             <div id="dentro" class="g">
                                 <span id="btn">
@@ -113,7 +175,7 @@
                             <div class="sugiu">
                                 <hr class="hr1">
                             </div>
-                            <div>
+                            <div style="font-size: 15px;">
                                 Punti Salienti del piano
                                 <br>
                                 <br>
@@ -135,12 +197,27 @@
                         <br>
                         <p>-</p>
                             <div id="dentro">
-                                <p><i class="fa fa-user"></i> 10 o più utenti</p> 
+                                <div class="dentro">
+                                    <div><i class="fa fa-user"></i></div>
+                                    <div class="dentrosx"><p> 10 o più utenti</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-folder"></i></div>
+                                    <div class="dentrosx">Soluzioni personalizzabili per la tua azienda</div>
+                                </div>
+                                <br>
+                                <div class="dentro">
+                                    <div><i class="fa fa-share-alt"></i></div>
+                                    <div class="dentrosx"> <p> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p></div>
+                                </div>
+                                <!-- <p><i class="fa fa-user"></i> 10 o più utenti</p> 
                                 <br>
                                 <p> <i class="fa fa-folder"></i> Soluzioni personalizzabili per la tua azienda</p> 
                                 <br>
                                 <p> <i class="fa fa-share-alt"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</p>  
-                            </div>
+                            </div> -->
                             <div id="dentro" class="g">
                                 <span id="btnn">
                                     Contattaci
@@ -150,7 +227,7 @@
                             <div class="sugiu">
                                 <hr class="hr1">
                             </div>
-                            <div>
+                            <div style="font-size: 15px;">
                                 Punti Salienti del piano
                                 <br>
                                 <br>
@@ -320,11 +397,14 @@
             </div>
         </section>
         <section class="section6">
-            <div class="container-small">
+            <div class="container-small rr">
+                <i class='fa fa-angle-down' id="arrow2"></i>
+                <i class='fa fa-angle-down' id="arrow3"></i>
                 <h2>Domande frequenti</h2>
                 <br>
                 <br>
                 <hr>
+                <i class='fa fa-angle-down'></i>
                 <br>
                 <br>
                 <h4>Qual è la differenza tra Dropbox Business Standard e Dropbox Business Advanced</h4>
